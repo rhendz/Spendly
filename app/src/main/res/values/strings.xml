@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Spendly</string>
+    <string name="login_message">Sign In Here!</string>
+    <string name="submit">Sign In</string>
+    <string name="emailField">email</string>
+    <string name="passField">password</string>
 </resources>
