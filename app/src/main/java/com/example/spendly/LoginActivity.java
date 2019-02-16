@@ -89,9 +89,8 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
                 attemptLogin();
             }
         });
-
-      //  mLoginFormView = findViewById(R.id.login_form);
-        //mProgressView = findViewById(R.id.login_progress);
+        mLoginFormView = findViewById(R.id.loginform);
+        mProgressView = findViewById(R.id.progressBar);
     }
 
     private void populateAutoComplete() {
