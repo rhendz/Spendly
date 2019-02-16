@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Spendly</string>
+    <string name="camera">Camera View</string>
+    <string name="title_activity_camera">camera</string>
+    <string name="title_activity_receipt">receipt</string>
+    <string name="map">MAP</string>
+    <string name="receipt">RECEIPTS</string>
 </resources>
