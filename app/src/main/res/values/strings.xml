@@ -5,4 +5,5 @@
     <string name="title_activity_receipt">receipt</string>
     <string name="map">MAP</string>
     <string name="receipt">RECEIPTS</string>
+    <string name="take_picture">Scan Receipt</string>
 </resources>
