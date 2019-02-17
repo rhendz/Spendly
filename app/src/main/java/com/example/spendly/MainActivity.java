@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.GestureDetector;
 import android.view.MotionEvent;
+import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
     private GestureDetectorCompat mDetector;
@@ -16,6 +17,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         mDetector = new GestureDetectorCompat(this, new CustomGestureListener());
+        ImageView myImageView = (ImageView) findViewById(R.id.imageView2);
+        myImageView.setImageResource(R.drawable.spendlylogo);
     }
 
     class CustomGestureListener extends GestureDetector.SimpleOnGestureListener {
